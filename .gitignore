@@ -1,0 +1,30 @@
+### Altium .gitignore
+
+# Ignore all files
+*
+
+# Don't ignore Git files
+!.gitignore
+
+# Don't ignore readme
+!readme.md
+
+# Don't ignore datashits
+!datashits/*
+
+# Don't ignore docs
+!docs/*
+
+# Don't ignore images
+!images/**
+
+# Don't ignore gerber generated files
+!gerber*.zip
+
+
+# Don't ignore KiCad files
+!scheme/**
+
+
+# Even if they are in subdirectories
+!**/ 

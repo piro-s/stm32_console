@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--***************************************-->
+<!--   File    : game_pad_keyboard.fsproj  -->
+<!--   Format  : TopoR Project file        -->
+<!--   Version : 2                         -->
+<!--   Program : TopoR 32 Layer 7.0.18707  -->
+<!--   Date    : Thursday, August 10, 2023 -->
+<!--   Time    : 14:47                     -->
+<!--***************************************-->
+
+<Project>
+   <Version current="2"/>
+   <GUID>{9FA755C7-2947-41A6-A569-D102B825EE32}</GUID>
+   <Documents>
+      <Section name="PCB" isExpanded="true">
+         <File path=".\game_pad_keyboard.fsx" isopened="0" dateChange="2023-08-10 11:19:14"/>
+         <File path=".\game_pad_keyboard_allroute.fsx" isopened="1" dateChange="2023-08-10 12:42:14"/>
+      </Section>
+      <Section name="AutoRouting" isExpanded="true">
+         <File path=".\autoroute_230810113458\game_pad_keyboard_4481-186s.fsb" isopened="0" dateChange="2023-08-10 12:14:50"/>
+         <File path=".\autoroute_230810113137\game_pad_keyboard_4503-127s.fsb" isopened="0" dateChange="2023-08-10 11:31:56"/>
+      </Section>
+   </Documents>
+   <Import>
+      <Specctra>
+         <Path name="C:\work\mine_projects\devices\game_pad\scheme\game_pad_keyboard_v0.1\game_pad_keyboard.dsn"/>
+      </Specctra>
+   </Import>
+</Project>
