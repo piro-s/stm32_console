@@ -62,4 +62,4 @@ Pinout (IDC-26M):
 
 #### Gerber:  
 Archive for production:  
-[gerber_v0.1](https://github.com/piro-s/stm32_console/raw/main/gerber/gerber_v0.1.zip)  
+[gerber_v0.1](https://github.com/piro-s/stm32_console/raw/master/gerber/gerber_v0.1.zip)  
