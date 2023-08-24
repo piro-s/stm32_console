@@ -26,32 +26,34 @@ The external connector gives access to connect:
 + RS-232, RS-485.  
 
 Pinout (IDC-26M):  
-+ 1 -     5V (output from TP5400);  
-+ 2 -     VDD (from usb or for power input);  
-+ 3 -     3.3V (output from AMS1117);  
-+ 4 -     5V (output from TP5400);  
-+ 5 -     Analog input (max 6V, or use resistor for increase voltage divider);  
-+ 6 -     PWM2 (PWM output or GPIO PORTB.9, limited 1k Ohm);  
-+ 7 -     GPIO PORTA.12 (limited 1k Ohm);  
-+ 8 -     PWM1 (PWM output or GPIO PORTB.8, limited 1k Ohm);  
-+ 9 -     GPIO PORTA.11 (limited 1k Ohm);  
-+ 10 -    SPI CS (to connect an external device or GPIO PORTB.12, limited 1k Ohm);  
-+ 11 -    GPIO PORTA.10 (limited 1k Ohm);  
-+ 12 -    SPI MOSI;  
-+ 13 -    GPIO PORTA.9 (limited 1k Ohm);  
-+ 14 -    SPI SCK;  
-+ 15 -    SPI MISO;  
-+ 16 -    Noninverting Receiver Input A / Driver Output A (for MOXA Data-);  
-+ 17 -    I2C SCL;  
-+ 18 -    Inverting Receiver Input B / Driver Output B (for MOXA Data+);  
-+ 19 -    I2C SDA;  
-+ 20 -    GND;  
-+ 21 -    UART RX (also connect to driver RS-485 and USB);  
-+ 22 -    UART TX (also connect to driver RS-485 and USB);  
-+ 23 -    RS-232 RX;  
-+ 24 -    RS-232 TX;  
-+ 25 -    GND;  
-+ 26 -    GND.  
+| Pin | Name          | Description                                                      |
+|-----|---------------|------------------------------------------------------------------|
+| 1   | 5V            | Output from TP5400                                               |
+| 2   | Vdd           | From usb or for power input                                      |
+| 3   | 3.3V          | Output from AMS1117                                              |
+| 4   | 5V            | Output from TP5400                                               |
+| 5   | Analog input  | Max 6V, or use resistor for increase voltage divider             |
+| 6   | PWM2          | PWM output or GPIO PORTB.9, limited 1k Ohm                       |
+| 7   | GPIO PORTA.12 | Limited 1k Ohm                                                   |
+| 8   | PWM1          | PWM output or GPIO PORTB.8, limited 1k Ohm                       |
+| 9   | GPIO PORTA.11 | Limited 1k Ohm                                                   |
+| 10  | SPI CS        | To connect an external device or GPIO PORTB.12, limited 1k Ohm   |
+| 11  | GPIO PORTA.10 | Limited 1k Ohm                                                   |
+| 12  | SPI MOSI      |                                                                  |
+| 13  | GPIO PORTA.9  | Limited 1k Ohm                                                   |
+| 14  | SPI SCK       |                                                                  |
+| 15  | SPI MISO      |                                                                  |
+| 16  | Data+         | Noninverting Receiver Input A / Driver Output A (for MOXA Data-) |
+| 17  | I2C SCL       |                                                                  |
+| 18  | Data-         | Inverting Receiver Input B / Driver Output B (for MOXA Data+)    |
+| 19  | I2C SDA       |                                                                  |
+| 20  | GND           |                                                                  |
+| 21  | UART RX       | Also connect to driver RS-485 and USB                            |
+| 22  | UART TX       | Also connect to driver RS-485 and USB                            |
+| 23  | RS-232 RX     |                                                                  |
+| 24  | RS-232 TX     |                                                                  |
+| 25  | GND           |                                                                  |
+| 26  | GND           |                                                                  |
 
 ---
 #### Scheme:  
