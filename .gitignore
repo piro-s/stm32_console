@@ -19,7 +19,7 @@
 !images/**
 
 # Don't ignore gerber generated files
-!gerber*.zip
+!gerber/**.zip
 
 
 # Don't ignore KiCad files
